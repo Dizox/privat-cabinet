@@ -15,9 +15,39 @@
 .container_payments{
     width: 140px;
     padding: 5px;
+    border-right: 1px solid #ccc;
+    margin: 0px;
 }
 
 .container_inputs{
-    width: 300px;
+    width: 335px;
     padding: 10px;
+}
+
+.container_deposit{
+    margin: 0px;
+}
+
+.container__label{
+    color: #ffc900;
+    font-size: 10px;
+}
+
+.container__label_w_142{
+    width: 142px;
+}
+
+.container__label-silver{
+    color: #b5b5b5;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.container_select{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container_advantages{
+    width: 231px;
 }

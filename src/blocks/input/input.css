@@ -1,12 +1,28 @@
 .input{
     width: 300px;
-    height: 55px;
     background-color: #fffffd;
     border: none;
     border-radius: 6px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 22px;
+}
+
+.input_small{
+    width: 48px;
+}
+
+.input_small-date{
+    width: 72px;
+    padding: 0px;
+}
+
+.input_medium{
+    width: 175px;
+}
+
+.input_gray{
+    background-color: #d1d1d0;
 }
 
 @media screen and (max-width: 487px){

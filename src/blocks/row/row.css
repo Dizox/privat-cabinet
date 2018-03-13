@@ -6,6 +6,30 @@
 
 .row_categories{
     max-width: 558px;
-    
     flex-grow: 1;
+}
+
+.row_small-smartCards{
+    width: 85px;
+}
+
+.row_card-numbers{
+    width: 230px;
+    justify-content: space-around;
+    border-radius:5px;
+    border: 1px solid #d7d7d7;
+}
+
+.row_deposit-wrapper{
+    border: 1px solid #ccc;
+    align-items: stretch;
+    justify-content:flex-start;
+}
+
+.row_input{
+    margin-bottom: 24px;
+}
+
+.row_input-alignItems-baseline{
+    align-items: baseline;
 }
