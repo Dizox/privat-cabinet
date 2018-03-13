@@ -1,0 +1,28 @@
+.link{
+    text-decoration: none;
+}
+
+.link_yellow{
+    color: #624d01;
+    font-family: Montserrat;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.link_yellow-bold{
+    color: #ffc900;
+    font-family: Montserrat;
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.link_yellow-normal{
+    color: #ffc900;
+    font-family: Montserrat;
+    text-decoration: underline;
+}
+
+.link_signUp{
+    margin-left: 5px;
+}

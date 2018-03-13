@@ -1,0 +1,13 @@
+.input{
+    width: 440px;
+    height: 55px;
+    background-color: #fffffd;
+    border: none;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 487px){
+    .input{
+        width: 90%;
+    }
+}

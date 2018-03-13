@@ -1,0 +1,22 @@
+.button{
+    outline: none;
+    padding: 10px 22px;
+    text-align: center;
+    display: block;
+    width: max-content;
+    cursor: pointer;
+}
+
+.button_login{
+    color: #000000;
+    background-color: #ffc900;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 42px;
+    margin-bottom: 18px;
+    border: none;
+    border-radius: 6px;
+    width: 187px;
+}

@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+@font-face {
+    src: url("fonts/Montserrat-Regular.otf");
+    font-family: "Montserrat";
+}

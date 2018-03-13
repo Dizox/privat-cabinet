@@ -1,0 +1,32 @@
+.main-page{
+    padding-top: 93px;
+    color: #fdfdfc;
+}
+
+.main-page__title{
+    font-size: 36px;
+    padding-bottom: 51px;
+}
+
+.main-page__already{
+    font-size: 24px;
+}
+
+.main-page__input-name{
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 7px;
+}
+
+.main-page__dontHave{
+    padding-top: 22px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.main-page__ifTrouble{
+    color: #fdfdfc;
+    font-size: 20px;
+    padding-top: 325px;
+    padding-bottom: 58px;
+}
