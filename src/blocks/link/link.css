@@ -26,3 +26,9 @@
 .link_signUp{
     margin-left: 5px;
 }
+
+.link_category{
+    color: #ffc900;
+    font-size: 15px;
+    font-weight: 400;
+}

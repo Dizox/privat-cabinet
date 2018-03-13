@@ -3,3 +3,9 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.row_categories{
+    max-width: 558px;
+    
+    flex-grow: 1;
+}

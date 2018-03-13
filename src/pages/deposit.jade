@@ -1,0 +1,113 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+            
+        main
+            .container
+                .row
+                    .row.row_categories
+                        a.link.link_category(href="#") My Account
+                        a.link.link_category.link_category-active(href="#") Deposit
+                        a.link.link_category(href="#") Widthdrawal
+                        a.link.link_category(href="#") Personal Data
+                        a.link.link_category(href="#") Account Status
+                    a.link.link_yellow-normal(href="#") Sign out
+                
+                .row
+                    .container.container_payments
+                    
+                        img.container__method(data-method="credit", src="img/cards.png")
+                        img.container__method(data-method="3d", src="img/cards3d.png")
+                    
+                    .container.container_deposit
+                        .row.row_small-smartCards
+                            img(src="img/mastercard.png")
+                            img(src="img/visa.png")
+                        .row
+                            .container.container_inputs
+                                .row
+                                    label( class="container__label") Amount to Deposit:
+                                    input(class="input", type="text")
+                                    label( class="container__label.container__label-silver") USD
+                                    
+                                .row
+                                    label( class="container__label") Card Number:
+                                    .row
+                                        input(class="input input_small input_gray", type="text")
+                                        input(class="input input_small input_gray", type="text")
+                                        input(class="input input_small input_gray", type="text")
+                                        input(class="input input_small input_gray", type="text")
+                                        
+                                    .row
+                                        label( class="container__label") Name of card holder,
+                                            br
+                                            | as printed on the card:
+                                        input(class="input", type="text")
+                                        
+                                    .row
+                                        label( class="container__label") Card’s expiry date:
+                                        
+                                        .container.container_select
+                                            label( class="container__label") Month:
+                                            select(class="input input_small")
+                                                option(value="1") 1
+                                                option(value="2") 2
+                                                option(value="3") 3
+                                                option(value="4") 4
+                                                option(value="5") 5
+                                                option(value="6") 6
+                                                option(value="7") 7
+                                                option(value="8") 8
+                                                option(value="9") 9
+                                                option(value="10") 10
+                                                option(value="11") 11
+                                                option(value="12") 12
+                                                
+                                                
+                                        .container.container_select
+                                            label( class="container__label") Year:
+                                            select(class="input input_small")
+                                                option(value="1") 2018
+                                                option(value="2") 2019
+                                                option(value="3") 2020
+                                                option(value="4") 2021
+                                                option(value="5") 2022
+                                                option(value="6") 2023
+                                                
+                                    .row
+                                        label(class="container__label") CVV: (Last three digits on the back of your card)
+                                        img(src="img/cvv.png") 
+                                        input(type="text" class="input input_small")
+                                    
+                            .container.container_inputs
+                                .row
+                                    label(class="container__label") Amount to Deposit:
+                                    input(class="input", type="text")
+                                .row
+                                    label(class="container__label") Amount to Deposit:
+                                    input(class="input", type="text")
+                                .row
+                                    label(class="container__label") Amount to Deposit:
+                                    select(class="input")
+                                .row
+                                    label(class="container__label") Amount to Deposit:
+                                    input(class="input", type="text")
+                                .row
+                                    label(class="container__label") Amount to Deposit:
+                                    input(class="input", type="text")
+                        .row
+                            .container.container_advantages
+                                .container__text Your credit card will be charged by "U-crypto"
+                                .row
+                                    img(src="img/advantages.png")
+                                    .container__text SSL Security Certificate -
+                                        br
+                                        | 2048-bit Strong Encryption
+                                    button.button_gold DEPOSIT
+                                    
+                            
+                
+                
+        include ../blocks/footer/footer.jade
