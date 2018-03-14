@@ -5,12 +5,14 @@
 }
 
 .row_categories{
-    max-width: 558px;
+    max-width: 572px;
     flex-grow: 1;
 }
 
 .row_small-smartCards{
     width: 85px;
+    padding-left: 10px;
+    padding-bottom: 31px;
 }
 
 .row_card-numbers{
@@ -28,8 +30,58 @@
 
 .row_input{
     margin-bottom: 24px;
+    padding-right: 20px;
 }
 
 .row_input-alignItems-baseline{
     align-items: baseline;
+}
+
+.row_top-menu{
+    margin-bottom: 5px;
+}
+
+.row_ssl{
+    margin-top: 8px;
+}
+
+.row__sllImg{
+    width: 86px;
+    height: 25px;
+}
+
+.row_deposit{
+    align-items: normal;
+}
+
+.row_padding-bottom-85px{
+    padding-bottom: 85px;
+}
+
+@media screen and (max-width: 880px){
+    .row_deposit{
+        flex-direction: column-reverse;
+    }
+    .row_small-smartCards{
+        margin: 0px auto;
+    }
+    .row_padding-bottom-85px{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .row_deposit-wrapper{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .row_input{
+        flex-direction: column;
+    }
+    .row_input-alignItems-baseline{
+        align-items: center;
+        margin-bottom: 30px;
+    }
 }

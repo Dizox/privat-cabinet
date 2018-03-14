@@ -30,5 +30,14 @@
 .link_category{
     color: #ffc900;
     font-size: 15px;
-    font-weight: 400;
+    padding: 6px 10px;
+}
+
+.link_category:hover{
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+.link_padding-right-10px{
+    padding-right: 10px;
 }

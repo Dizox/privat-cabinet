@@ -5,15 +5,15 @@ html(lang="en")
         include ../blocks/header/header.jade
             
         main
-            .container
-                .row
+            .container.container_max-width-900px
+                .row.row_top-menu
                     .row.row_categories
                         a.link.link_category(href="#") My Account
                         a.link.link_category.link_category-active(href="#") Deposit
                         a.link.link_category(href="#") Widthdrawal
                         a.link.link_category(href="#") Personal Data
                         a.link.link_category(href="#") Account Status
-                    a.link.link_yellow-normal(href="#") Sign out
+                    a.link.link_yellow-normal.link_padding-right-10px(href="#") Sign out
                 
                 .row.row_deposit-wrapper
                     .container.container_payments
@@ -25,8 +25,8 @@ html(lang="en")
                         .row.row_small-smartCards
                             img(src="img/mastercard.png" width="36px")
                             img(src="img/visa.png" width="36px")
-                        .row
-                            .container.container_inputs
+                        .row.row_deposit
+                            .container.container_inputs.container_width-376px
                                 .row.row_input
                                     label(class="container__label") Amount to Deposit:
                                     input(class="input input_medium", type="text")
@@ -35,11 +35,10 @@ html(lang="en")
                                 .row.row_input
                                     label(class="container__label") Card Number:
                                     .row.row_card-numbers
-                                        input(class="input input_small input_gray", type="text")
-                                        input(class="input input_small input_gray", type="text")
-                                        input(class="input input_small input_gray", type="text")
-                                        input(class="input input_small input_gray", type="text")
-                                        
+                                        input(class="input input_small input_gray", type="text", onkeyup="jump(this);", maxlength="4", size="4")
+                                        input(class="input input_small input_gray", type="text", onkeyup="jump(this);", maxlength="4", size="4")
+                                        input(class="input input_small input_gray", type="text", onkeyup="jump(this);", maxlength="4", size="4")
+                                        input(class="input input_small input_gray", type="text", onkeyup="jump(this);", maxlength="4", size="4")    
                                 .row.row_input
                                     label( class="container__label") Name of card holder,
                                         br
@@ -78,36 +77,35 @@ html(lang="en")
                                             
                                 .row.row_input
                                     label(class="container__label container__label_w_142") CVV: (Last three digits on the back of your card)
-                                    img(src="img/cvv.png" width="47px") 
+                                    img(class="container__svv-img" src="img/cvv.png" width="47px") 
                                     input(type="text" class="input input_small")
                                     
-                            .container.container_inputs
+                            .container.container_inputs.container_padding-left-45px
                                 .row.row_input
-                                    label(class="container__label") Amount to Deposit:
+                                    label(class="container__label") First name:
                                     input(class="input input_medium", type="text")
                                 .row.row_input
-                                    label(class="container__label") Amount to Deposit:
+                                    label(class="container__label") Last name:
                                     input(class="input input_medium", type="text")
                                 .row.row_input
-                                    label(class="container__label") Amount to Deposit:
+                                    label(class="container__label") Country:
                                     select(class="input input_medium")
                                 .row.row_input
-                                    label(class="container__label") Amount to Deposit:
+                                    label(class="container__label") City:
                                     input(class="input input_medium", type="text")
                                 .row.row_input
-                                    label(class="container__label") Amount to Deposit:
+                                    label(class="container__label") Address:
                                     input(class="input input_medium", type="text")
-                        .row
+                                .row.row_input
+                                    label(class="container__label") ZIP Code:
+                                    input(class="input input_medium", type="text")
+                        .row.row_padding-bottom-85px
                             .container.container_advantages
-                                .container__text Your credit card will be charged by "U-crypto"
-                                .row
-                                    img(src="img/advantages.png")
-                                    .container__text SSL Security Certificate -
+                                .container__text.container__text_white Your credit card will be charged by "U-crypto"
+                                .row.row_ssl
+                                    img(class="row__sllImg" src="img/advantages.png")
+                                    .container__text.container__text_white SSL Security Certificate -
                                         br
                                         | 2048-bit Strong Encryption
-                            button.button.button_gold DEPOSIT
-                                    
-                            
-                
-                
+                            button.button.button_gold.button_deposite DEPOSIT
         include ../blocks/footer/footer.jade

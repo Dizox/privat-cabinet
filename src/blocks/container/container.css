@@ -7,6 +7,10 @@
     padding-bottom: 20px;
 }
 
+.container_max-width-900px{
+    max-width: 900px;
+}
+
 .container_main-page{
     height: 100vh;
     background: black url("img/main-page.png") no-repeat center / cover;
@@ -41,6 +45,7 @@
     color: #b5b5b5;
     font-size: 12px;
     text-transform: uppercase;
+    padding-left: 8px;
 }
 
 .container_select{
@@ -49,5 +54,52 @@
 }
 
 .container_advantages{
-    width: 231px;
+    max-width: 265px;
+    margin: 0px;
+    font-size: 10px;
+    padding: 0px;
+}
+
+.container__text_white{
+    color: #ffffff;
+}
+
+.container_padding-left-45px{
+    padding-left: 45px;
+}
+
+.container_width-376px{
+    width: 376px;
+}
+
+@media screen and (max-width: 880px){
+    .container_deposit{
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .container_payments{
+        border: none;
+        margin: 0px auto;
+    }
+}
+
+
+@media screen and (max-width: 420px){
+    .container__svv-img{
+        margin-top:  15px;
+        margin-bottom:  15px;
+    }
+    .container_width-376px{
+        width: auto;
+    }
+    .container_padding-left-45px{
+        padding-left: 36px;
+    }
+    .container_inputs{
+        width: auto;
+        margin: 0px auto;
+    }
 }
