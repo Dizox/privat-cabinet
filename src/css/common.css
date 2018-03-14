@@ -13,3 +13,8 @@ body{
     src: url("fonts/Montserrat-Regular.otf");
     font-family: "Montserrat";
 }
+
+@font-face {
+    src: url("fonts/Montserrat-Thin.otf");
+    font-family: "Montserrat-Thin";
+}

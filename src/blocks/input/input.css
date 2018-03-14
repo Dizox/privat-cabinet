@@ -28,6 +28,10 @@
     background-color: #d1d1d0;
 }
 
+.input_main-page{
+    height: 55px;
+}
+
 @media screen and (max-width: 487px){
     .input{
         width: 90%;
