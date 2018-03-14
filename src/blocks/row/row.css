@@ -74,6 +74,9 @@
     .row_deposit-wrapper{
         flex-direction: column;
     }
+    .row_categories{
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 420px){
